@@ -1,0 +1,27 @@
+{
+  "name": "node-command-line-starter",
+  "version": "2.0.0",
+  "description": "Starter to create node-command-line utilities",
+  "author": "Rajen  Rawal",
+  "license": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "app:import": "ts-node ./src/bin/import.bin.ts",
+    "app:portfolio": "ts-node ./src/bin/query.bin.ts"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "axios": "^0.27.2",
+    "commander": "^8.2.0",
+    "fast-csv": "^4.3.6",
+    "luxon": "^3.0.1",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.0.0",
+    "@types/node": "^16.9.4",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
